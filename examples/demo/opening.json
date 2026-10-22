@@ -1,0 +1,11 @@
+{
+  "as_of": "2026-01-01T00:00:00+08:00",
+  "confirmed": true,
+  "positions": [
+    {"account": "demo-bank", "asset": "CASH-CNY", "quantity": 40000},
+    {"account": "demo-broker", "asset": "DEMO-EQUITY", "quantity": 50},
+    {"account": "demo-broker", "asset": "DEMO-BOND", "quantity": 200},
+    {"account": "demo-broker", "asset": "DEMO-GOLD", "quantity": 100},
+    {"account": "demo-loan", "asset": "DEMO-DEBT", "quantity": 15000}
+  ]
+}

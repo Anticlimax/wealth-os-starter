@@ -1,0 +1,13 @@
+{
+  "id": "demo-subscription-001",
+  "kind": "trade",
+  "status": "confirmed",
+  "occurred_at": "2026-01-09T12:00:00+08:00",
+  "recorded_at": "2026-01-09T12:10:00+08:00",
+  "evidence": "synthetic:subscription:001",
+  "note": "虚构申购已扣款1000元，份额未知：现金减少、在途增加",
+  "legs": [
+    {"account": "demo-bank", "asset": "CASH-CNY", "quantity_delta": -1000},
+    {"account": "demo-broker", "asset": "PENDING-CNY", "quantity_delta": 1000}
+  ]
+}

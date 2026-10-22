@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Wealth OS · 个人理财工作台</title><link rel="stylesheet" href="/style.css"></head>
+<body>
+<header><a class="brand" href="/">W<span>Wealth OS</span></a><span class="local">LOCAL / 本地工作台</span></header>
+<main>
+<div class="intro"><div><p class="eyebrow">YOUR MONEY, WITH CONTEXT</p><h1>看清现在，安排未来。</h1><p class="sub">把资产、收支和目标放在一起。每一个数字都有来处。</p></div><button id="refresh" type="button">刷新账本 ↗</button></div>
+<div id="status" class="notice" role="status">正在读取本地账本…</div>
+<section id="metrics" class="metrics" aria-label="核心财务指标"></section>
+<div class="columns"><section class="panel"><div class="section-head"><h2>资产配置</h2><span>实际 / 计划</span></div><p class="hint">差额 = 目标金额 − 当前金额；配置分母为总资产，不扣负债。</p><div id="allocation"></div></section>
+<section class="panel"><div class="section-head"><h2>未来的安排</h2><span id="plan-status"></span></div><div id="goals"></div><div id="goal-summary" class="footnote"></div></section></div>
+<section class="panel"><div class="section-head"><h2>账户与持仓</h2><span id="currency"></span></div><div class="table-scroll"><table><thead><tr><th>资产 / 账户</th><th>数量</th><th>折算金额</th><th>价格日期 / 来源</th></tr></thead><tbody id="positions"></tbody></table></div></section>
+<section class="panel scenario"><div><p class="eyebrow">WHAT IF</p><h2>情景计算器</h2><p class="hint">假设固定收益率，按月复利、月末投入。未考虑税费、通胀和波动，不代表预测。</p></div>
+<form id="scenario"><label>初始金额<input name="initial" type="number" min="0" value="100000" required></label><label>每月投入<input name="monthly" type="number" min="0" value="2000" required></label><label>名义年收益率 %<input name="rate" type="number" min="-99" max="100" step="0.1" value="0" required></label><label>年数<input name="years" type="number" min="1" max="80" value="10" required></label><button type="submit">计算情景</button></form><p id="scenario-result" aria-live="polite">使用终端 scenario 命令可生成逐年结果。</p></section>
+<section class="panel"><div class="section-head"><h2>数据与核对</h2><span>Evidence first</span></div><ul id="checks"></ul><p class="hint">未确认线索不计入资产。空流水不等于确认没有交易。月度收支是用户估计，不是流水统计。</p></section>
+<footer id="footer"></footer>
+</main><script src="/app.js"></script></body></html>

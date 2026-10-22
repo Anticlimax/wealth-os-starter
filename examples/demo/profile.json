@@ -1,0 +1,21 @@
+{
+  "schema": "wealth-starter-v1",
+  "mode": "demo",
+  "base_currency": "CNY",
+  "monthly_income": 12000,
+  "monthly_expenses": 7000,
+  "emergency_months": 6,
+  "accounts": {
+    "demo-bank": {"name": "演示银行账户"},
+    "demo-broker": {"name": "演示证券账户"},
+    "demo-loan": {"name": "演示贷款账户"}
+  },
+  "assets": {
+    "CASH-CNY": {"name": "人民币现金（演示）", "kind": "cash", "currency": "CNY", "category": "现金", "liquid": true},
+    "DEMO-EQUITY": {"name": "虚构全球股票篮子", "kind": "security", "currency": "USD", "category": "股票", "liquid": true},
+    "DEMO-BOND": {"name": "虚构债券篮子", "kind": "security", "currency": "CNY", "category": "债券", "liquid": true},
+    "DEMO-GOLD": {"name": "虚构黄金篮子", "kind": "security", "currency": "CNY", "category": "黄金", "liquid": true},
+    "PENDING-CNY": {"name": "已扣款待确认资产", "kind": "pending", "currency": "CNY", "category": "在途", "liquid": false},
+    "DEMO-DEBT": {"name": "虚构贷款本金", "kind": "liability", "currency": "CNY", "category": "负债", "liquid": false}
+  }
+}

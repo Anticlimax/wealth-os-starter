@@ -1,0 +1,26 @@
+# Personal inputs and all generated financial outputs stay local.
+/data/
+/output/
+/private/
+/backups/
+/scratch/
+*.db
+*.sqlite*
+*.log
+.env
+.env.*
+!.env.example
+*credentials*
+*token*
+*.pem
+*.key
+*.pdf
+*.xlsx
+*.csv
+*.zip
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+.DS_Store
+.write.lock

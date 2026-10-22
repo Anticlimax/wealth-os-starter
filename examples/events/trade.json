@@ -1,0 +1,13 @@
+{
+  "id": "demo-trade-001",
+  "kind": "trade",
+  "status": "confirmed",
+  "occurred_at": "2026-01-08T12:00:00+08:00",
+  "recorded_at": "2026-01-08T12:10:00+08:00",
+  "evidence": "synthetic:trade:001",
+  "note": "虚构买入：10份债券，支出1000元加2元费用；现金腿包含费用",
+  "legs": [
+    {"account": "demo-bank", "asset": "CASH-CNY", "quantity_delta": -1002},
+    {"account": "demo-broker", "asset": "DEMO-BOND", "quantity_delta": 10}
+  ]
+}

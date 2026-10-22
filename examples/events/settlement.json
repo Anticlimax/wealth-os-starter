@@ -1,0 +1,13 @@
+{
+  "id": "demo-settlement-001",
+  "kind": "settlement",
+  "status": "confirmed",
+  "occurred_at": "2026-01-10T12:00:00+08:00",
+  "recorded_at": "2026-01-10T12:10:00+08:00",
+  "evidence": "synthetic:settlement:001",
+  "note": "虚构份额确认：清除在途金额，增加10份债券，不再次扣现金",
+  "legs": [
+    {"account": "demo-broker", "asset": "PENDING-CNY", "quantity_delta": -1000},
+    {"account": "demo-broker", "asset": "DEMO-BOND", "quantity_delta": 10}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "quotes": {
+    "CASH-CNY": {"price": 1, "as_of": "2026-01-01T00:00:00+08:00", "source": "synthetic-demo"},
+    "DEMO-EQUITY": {"price": 100, "as_of": "2026-01-01T00:00:00+08:00", "source": "synthetic-demo"},
+    "DEMO-BOND": {"price": 100, "as_of": "2026-01-01T00:00:00+08:00", "source": "synthetic-demo"},
+    "DEMO-GOLD": {"price": 50, "as_of": "2026-01-01T00:00:00+08:00", "source": "synthetic-demo"},
+    "PENDING-CNY": {"price": 1, "as_of": "2026-01-01T00:00:00+08:00", "source": "synthetic-demo"},
+    "DEMO-DEBT": {"price": 1, "as_of": "2026-01-01T00:00:00+08:00", "source": "synthetic-demo"}
+  },
+  "fx": {"USD": {"rate": 7, "as_of": "2026-01-01T00:00:00+08:00", "source": "synthetic-demo"}}
+}

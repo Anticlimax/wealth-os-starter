@@ -1,0 +1,8 @@
+{
+  "status": "draft",
+  "targets": {"现金": 35, "股票": 40, "债券": 20, "黄金": 5},
+  "goals": [
+    {"name": "虚构旅行目标", "target_amount": 18000, "saved_amount": 6000, "months": 12},
+    {"name": "虚构学习预算", "target_amount": 24000, "saved_amount": 0, "months": 24}
+  ]
+}
